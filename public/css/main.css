@@ -1,0 +1,102 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.body {
+  padding: 15px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+header > nav.topbar {
+  background-color: #fff;
+  border-radius: 0px;
+  border-bottom: 2px solid blueviolet;
+  color: blueviolet;
+}
+
+/* SignUp Page */
+
+div.form-group > input[name=email],
+div.form-group > input[name=password],
+div.form-group > input[name=fullname]{
+  height: 48px;
+  border-radius: 0px;
+  border: 2px solid blueviolet;
+}
+
+form > button[type=submit]{
+  height: 48px;
+  border-radius: 0px;
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+}
+form > button[type=submit]:hover{
+  height: 48px;
+  border-radius: 0px;
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+}
+
+a.brand-name {
+  color: blueviolet !important;
+}
+
+/* signup page ends */
+
+ul > li > a {
+  color: blueviolet !important;
+}
+
+section.row.new-post{
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px;
+}
+
+textarea[name=body] {
+  border-radius: 0px;
+  border: 2px solid blueviolet;
+}
+
+textarea[name=body]:focus {
+  border-radius: 0px;
+  border: 2px solid blueviolet;
+
+}
+
+.body header,
+.posts header {
+  margin-bottom: 20px;
+}
+
+.posts .post {
+  padding-left: 10px;
+  margin-bottom: 30px;
+  border-left: 3px solid #a21b24;
+}
+
+.posts .post .info {
+  color: #aaa;
+  font-style: italic;
+}
+
+.error, .success {
+  text-align: center;
+}
+
+.error {
+  border: 1px solid red;
+  background-color: #f9b6ae;
+  color: red;
+}
+
+.error ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.success {
+  border: 1px solid green;
+  background-color: #d2f8db;
+  color: green;
+}
